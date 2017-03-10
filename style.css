@@ -1,0 +1,95 @@
+body{
+	text-align: center;
+	margin: 0;
+	font-family: helvetica;
+}
+img {border: 0;}
+h1 {
+	background: #efefef;
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 10px 0;
+	padding: 15px 0;
+	box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+}
+form textarea {
+	display: block;
+	width: 90%;
+	min-height: 600px;
+	margin: 0 auto;
+}
+form fieldset {
+	width: 90%;
+	text-align: left;
+	margin: 0 auto;
+	border: none;
+	border-top: 1px solid #ccc;
+	font-size: 12px;
+}
+form input {
+	display: inline-block;
+	margin: 10px auto;
+}
+.top {
+	top: 18px;
+	position: absolute;	
+}
+.button {
+	display: inline-block;
+	height: 20px;
+	padding: 5px;
+	vertical-align: middle;
+	font-weight: bold;
+	border: 1px solid #FFD800;
+	cursor: pointer;
+	transition: background .5s, border .5s;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	font-size: 14px;
+	margin: 0;
+	background: #F28416;
+}
+.button:hover {
+	background: #5C755E;
+	border-color: #3D4C3E;
+}
+.button.slim {
+	padding: 0 5px;
+	height: 17px;
+}
+.settings {
+	left: 7px;
+}
+input.button.parse {
+	padding: 10px 80px;
+	border-bottom: 0;
+	height: auto;
+}
+.settingContainer {
+	margin-bottom: 10px;
+}
+.settingContainer label:hover,
+.settingContainer label.active {
+	background: #efefef;
+}
+.settingContainer label {
+	display: inline-block;
+	min-width: 120px;
+	padding-left: 10px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.history {
+	text-align: left;
+	width: 90%;
+	margin: 5px auto;
+	display: none;
+}
+
+label.strlength {
+	position: fixed;
+	top: 50px;
+	right: 5px;
+	font-size: .8em;
+	color: #7a7a7a;
+}
